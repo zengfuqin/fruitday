@@ -1,0 +1,155 @@
+*{
+	padding:0;
+	margin:0;
+}
+#content_box{
+	width: 1287px;
+	overflow: hidden;
+	margin:0 auto;
+	/*background: yellow;*/
+
+}
+#content_box .list{
+	width: 1282px;
+	height: 55px;
+	/*background: red;*/
+	margin-top: 28px;
+}
+#content_box  .list_title{
+	color: #999;
+	font-size: 14px;
+	width: 48px;
+	line-height: 24px;
+	background: #fff;
+	padding-left: 4px;
+	float: left;
+}
+#content_box  .list_quanbu{
+	float: left;
+	text-align: center;
+}
+#content_box  .list_quanbu a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	width: 46px;
+	line-height: 24px;
+	background: #64a131;
+}
+#content_box  .text{
+	float: left;
+	width: 1183px;
+	height: 24px;
+	/*background: #ccc;*/
+}
+#content_box  .text2{
+	float: left;
+	width: 1183px;
+	height: 24px;
+	/*background: #ccc;*/
+	margin-left: 98px;
+}
+#content_box   a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #555;
+	display: block;
+	float: left;
+}
+#content_box   a span{
+	padding-left: 9px;
+	padding-right: 9px;
+	line-height: 24px;
+	text-align: center;
+	/*background: #ccc;*/
+}
+#content_box .list2{
+	width: 1282px;
+	height: 24px;
+	/*background: #f55;*/
+	padding-top: 9px;
+	padding-bottom: 9px;
+	border-top: 1px solid #ccc;
+}
+.text3{
+	background: #f0f0f0;
+	width: 1280px;
+	height: 24px;
+}
+#content_main_box{
+	margin-top: 28px;
+	width: 1282px;
+}
+#content_m{
+	width: 1282px;
+}
+.content_main{
+	width: 1002px;
+	height: 316px;
+	/*background: red;*/
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.content_main_left{
+	width: 240px;
+	height: 316px;
+	/*background: #fe1;*/
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+.text_box{
+	width: 233px;
+	float: left;
+	margin-top: 13px;
+	margin-bottom: 8px;
+}
+.cont_text{
+	float: left;
+	font-size: 14px;
+	color: #333;
+	text-indent: 5px;
+}
+.cont_money{
+	float: right;
+	font-size: 14px;
+	color: #999;
+}
+.weight_box{
+	width: 233px;
+	float: left;
+}
+.cont_weight{
+	float: left;
+	font-size: 14px;
+	color: #999;
+	border: 1px solid #ddd;
+	text-indent: 5px;
+}
+.img{
+	float: right;
+}
+.history{
+	width: 260px;
+	height: 316px;
+	/*background: blue;*/
+	float: left;
+	margin-left: 15px;
+}
+#history_text{
+	width: 260px;
+	height: 39px;
+	border-bottom: 1px solid #ccc;
+}
+#history_text span{
+	line-height: 39px;
+	color: #64a131;
+	font-size: 14px;
+}
+a:hover .content_main_left{
+	/*transform: scale(1.1); */
+	box-shadow:-2px -3px 10px 3px #ddd;
+}

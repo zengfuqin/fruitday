@@ -1,0 +1,219 @@
+		#scroll_box{
+			width: 1287px;
+			height: 400px;
+			background: pink;
+			margin: 0 auto;
+		}
+		
+		#ad_box{
+			margin:0 auto;
+			/*background: blue;*/
+			width: 1287px;
+			height: 200px;
+		}
+		#ad_box #ad_1{
+			margin-top: 10px;
+			float: left;
+			margin-right: 26px;
+			margin-left: 4px;
+			margin-bottom: 50px;
+		}
+		#ad_box #ad_2{
+			float: left;
+			margin-right: 26px;
+			margin-top: 10px;
+			margin-bottom: 50px;
+		}
+		#ad_box #ad_4{
+			margin-top: 10px;
+			float: left;
+			margin-right: 4px;
+			margin-bottom: 50px;
+		}
+
+		#content_box_1{
+			width: 1287px;
+			overflow: hidden;
+			/*background: yellow;*/
+			border-top: 1px solid #ddd;
+		}
+		#content_box_1 #recommend_top{
+			width: 1287px;
+			height: 42px;
+			margin-top: 18px;
+			margin-bottom: 4px;
+			background:  url(../images/t1.png) no-repeat left center;
+		}
+		#content_box_1 #recommend_top2{
+			width: 1287px;
+			height: 42px;
+			margin-top: 18px;
+			margin-bottom: 4px;
+			background:  url(../images/t2.png) no-repeat left center;
+		}
+		#content_box_1 #recommend_top3{
+			width: 1287px;
+			height: 42px;
+			margin-top: 18px;
+			margin-bottom: 4px;
+			background:  url(../images/t3.png) no-repeat left center;
+		}
+		#content_box_1 #recommend_top4{
+			width: 1287px;
+			height: 42px;
+			margin-top: 18px;
+			margin-bottom: 4px;
+			background:  url(../images/t4.png) no-repeat left center;
+		}
+		#content_box_1 #recommend_top a{
+			float: right;
+			display: block;
+			line-height: 42px;
+			color: #333;
+			font-size: 14px;
+			padding-right: 2px;
+			text-decoration: none;
+		}
+		#content_box_1 #recommend_top2 a{
+			float: right;
+			display: block;
+			line-height: 42px;
+			color: #333;
+			font-size: 14px;
+			padding-right: 2px;
+			text-decoration: none;
+		}
+		#content_box_1 #recommend_top3 a{
+			float: right;
+			display: block;
+			line-height: 42px;
+			color: #333;
+			font-size: 14px;
+			padding-right: 2px;
+			text-decoration: none;
+		}
+		#content_box_1 #recommend_top4 a{
+			float: right;
+			display: block;
+			line-height: 42px;
+			color: #333;
+			font-size: 14px;
+			padding-right: 2px;
+			text-decoration: none;
+		}
+		#content_box_1 #recommend_top a:hover{
+			text-decoration: underline;
+		}
+		#content_box_1 #recommend_top2 a:hover{
+			text-decoration: underline;
+		}
+		#content_box_1 #recommend_top3 a:hover{
+			text-decoration: underline;
+		}
+		#content_box_1 #recommend_top4 a:hover{
+			text-decoration: underline;
+		}
+		#content_box_1 #content_box_1_box{
+			width: 1287px;
+			height: 615px;
+			/*background:purple;*/
+			margin-bottom: 30px;
+		}
+		
+		#content_box_1 #content_box_1_box #content_box_1_box_left{
+			width: 248px;
+			height: 615px;
+			background: pink;
+			margin-right: 10px;
+			float: left;
+			padding-left: 5px;
+		}
+		#content_box_1 #content_box_1_box #content_box_1_box_top{
+			width: 1022px;
+			height: 307px;
+			/*background: red;*/
+			float: left;
+		}
+		#content_box_1 #content_box_1_box #content_box_1_box_top .top_left{
+			width: 248px;
+			height: 307px;
+			/*background: #eee;*/
+			float: left;
+			margin-right: 10px;
+		}
+		#content_box_1 #content_box_1_box   .top_text1{
+			color: #555;
+			font-size: 14px;
+			text-indent: 2px;
+			float: left;
+			padding-top: 5px;
+		}
+		#content_box_1 #content_box_1_box   .top_text{
+			float: left;
+			margin-top: 5px;
+		}
+		#content_box_1 #content_box_1_box   .top_text2{
+			color: #999;
+			font-size: 14px;
+			text-indent: 2px;
+		}
+		#content_box_1 #content_box_1_box  .gouwu{
+			width: 32px;
+			height: 32px;
+			/*background: #ff5;*/
+			float:right;
+			margin-top: 15px;
+			margin-right: 5px;
+			background: url(../images/gouwu.png) no-repeat left center;
+		}
+		#content_box_1 #content_box_1_box #content_box_1_box_top .top_right{
+			width: 248px;
+			height: 307px;
+			/*background: #eee;*/
+			float: left;
+			
+		}
+
+		#content_box_1 #content_box_1_box #content_box_1_box_bottom{
+			width: 1022px;
+			height: 308px;
+			/*background: blue;*/
+			float: left;
+		}
+		#content_box_1 #content_box_1_box #content_box_1_box_bottom .bottom_left{
+			width: 248px;
+			height: 307px;
+			/*background: #444;*/
+			float: left;
+			margin-right: 10px;
+		}
+		
+		#content_box_1 #content_box_1_box #content_box_1_box_bottom .bottom_right2{
+			width: 248px;
+			height: 307px;
+			/*background: #eee;*/
+			float: left;
+			
+		}
+		#content_box_1 #content_box_1_box .content_box_1_box_left2{
+			width: 262px;
+			height: 610px;
+			/*background: pink;*/
+			float: left;
+		}
+		#content_box_1  #content_box_1_box .content_box_1_box_left2 .content_box_1_box_left2_top{
+			width: 248px;
+			height: 305px;
+			/*background: blue;*/
+			margin-left: 5px;
+			margin-right: 10px;
+		}
+		
+		#beef{
+			width: 1287px;
+			height: 200px;
+			/*background: yellow;*/
+			margin:0 auto;
+		}
+
+		
