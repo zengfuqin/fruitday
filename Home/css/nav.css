@@ -27,7 +27,7 @@
 		}
 		header #info_box #info #info_left{
 			/*background: #e2e;*/
-			width: 232px;
+			width: 250px;
 			height: 30px;
 			float: left;
 		}
@@ -103,12 +103,14 @@
 		}
 		header #info_box #info #info_left a #address_list{
 			width: 280px;
-			height: 380px;
-			background: #0f0;
+			height: 370px;
+			overflow-x: hidden;
+			background: #fff;
 			position: relative;
-			top:30px;
+			top:0px;
 			right: 10px;
-			/*display: none;*/
+			display: none;
+			box-shadow: 0px 0px 10px 1px #e8e8e8;
 		}
 		header #info_box #info #info_left a:hover #address_list{
 			display: block;
@@ -116,51 +118,81 @@
 		header #info_box #info #info_left a #address_list #address_list_content{
 			width: 260px;
 			height: 380px;
-			background: blue;
+			/*background: blue;*/
 			margin:0 auto;
-			/*margin-top: 30px;*/
+			position: relative;
+			top:0;
 		}
 		header #info_box #info #info_left a #address_list #address_list_content .address_list_content_title{
 			width: 260px;
 			height: 30px;
-			background: purple;
-			float: left;
+			position: absolute;
+			top:0;
+			cursor: auto;
+			font-size: 14px;
+			color: #999;
+		}
+		header #info_box #info #info_left a #address_list #address_list_content .address_list_content_title2{
+			font-size: 14px;
+			color: #999;
+			cursor: auto;
 			position: relative;
-			top:-20px;
+			top:30px;
+		}
+		header #info_box #info #info_left a #address_list #address_list_content  .address_list_content_add{
+			position: relative;
+			top: 30px;
+		}
+		header #info_box #info #info_left a #address_list #address_list_content  .address_list_content_add .cont_add{
+			width: 260px;
+			height: 35px;
+			/*background: red;*/
+			clear: both;
+			text-indent: 10px;
+			clear: #555;
+			font-size: 14px;
+		}
+		header #info_box #info #info_left a #address_list #address_list_content  .address_list_content_add .cont_add:hover{
+			background: #f1f1f1;
+		}
+		header #info_box #info #info_left a #address_list #address_list_content  .address_list_content_add .cont_add .cont_add_arr{
+			font-weight: bolder;
+			/*background: yellow;*/
+			float: right;
 		}
 		header #info_box #info #info_left a #address_list #address_list_content .address_list_content_content{
 			width: 260px;
 			height: 30px;
+			line-height: 30px;
 			background: #f1f1f1;
-			float: left;
-			/*position: relative;
-			top:-20px;*/
+			
+			position: relative;
+			top:30;
 		}
 		
 		header #info_box #info #info_left a #address_list #address_list_content .address_list_content_content  ul{
 			width: 260px;
-			height: 30px;
+			line-height: 30px;
 			float: left;
-			background: #ccc;
-			position: relative;
-			top:-20px;
+			/*background: #ccc;*/
+			clear: both;
+			cursor: default;
 		}
 		header #info_box #info #info_left a #address_list #address_list_content .address_list_content_content  ul li{
 			float: left;
-			padding-left: 5px;
-			padding-right: 5px;
-			color: #555
+			width: 30px;
+			height: 20px;
+			line-height: 20px;
+			margin-left: 5px;
+			margin-right: 5px;
+			color: #555;
+			/*background: purple;*/
+			margin-top: 5px;
 		}
 		header #info_box #info #info_left a #address_list #address_list_content .address_list_content_content  ul li:hover{
 			border-bottom: 1px solid #64a131;
+			cursor:pointer;
 		}
-
-
-
-
-
-
-
 
 		header #info_box #info #info_left #add_info{
 			float: left;
@@ -240,15 +272,46 @@
 		}
 		header #info_box #info #info_right ul li  #ad_a:hover{
 			background: #fff;
+			color: #999;
 		}
 		header #info_box #info #info_right ul li  #ad_a #ad_a_box{
 			width: 240px;
-			height: 158px;
-			background: #00f;
+			height: 148px;
+			color: #555;
+			font-size: 12px;
+			background: #fff;
+			padding-top: 10px;
 			position: relative;
+			top:0px;
 			right: 170px;
 			display: none;
+			box-shadow: 0px 1px 10px 1px #ddd;
 		}
+		header #info_box #info #info_right ul li  #ad_a #ad_a_box  .ad_a_box{
+			width: 210px;
+			line-height: 34px;
+			text-align: left;
+			border-bottom: 1px dashed #ddd;
+			cursor: pointer;
+			margin-left: 15px;
+			/*background: yellow;*/
+		}
+		header #info_box #info #info_right ul li  #ad_a #ad_a_box  .ad_a_box .ad_box_cnt{
+			display: block;
+			width: 121px;
+			height: 33px;
+			/*background: yellow;*/
+		}
+		header #info_box #info #info_right ul li  #ad_a #ad_a_box  .ad_a_box .ad_box_cnt:hover{
+			color: #64a131;
+		}
+		
+		header #info_box #info #info_right ul li  #ad_a #ad_a_box  #more{
+			color: #64a131;
+			font-size: 12px;
+			line-height: 35px;
+		}
+
 		header #info_box #info #info_right ul li  #ad_a:hover #ad_a_box{
 			display: block;
 		}
@@ -257,12 +320,89 @@
 		}
 		header #info_box #info #info_right ul li  #phone_a #phone_a_box{
 			width: 280px;
-			height: 320px;
-			background: #0ff;
-			position: relative;
-			right: 210px;
+			height: 300px;
+			background: #fff;
+			position:relative;
+			top:-2px;
+			right: 210;
+			box-shadow: 0px -1px 10px 3px #e8e8e8;
 			display: none;
 		}
+		header #info_box #info #info_right ul li  #phone_a #phone_a_box  .phone{
+			/*background: #abcedf;*/
+			width: 260px;
+			height: 290px;
+			margin: 0 auto;
+		}
+		header #info_box #info #info_right ul li  #phone_a #phone_a_box  .phone .phone_text{
+			/*background: #f00;*/
+			width: 260px;
+			height: 30px;
+			padding-top: 17px;
+			color: #555;
+			font-size: 12px;
+		}
+		header #info_box #info #info_right ul li  #phone_a #phone_a_box  .phone .phone_text .phone_text_span{
+			color: #64a131;
+		}
+		header #info_box #info #info_right ul li  #phone_a #phone_a_box  .phone  .phone_eweima{
+			/*background: red;*/
+			width: 260px;
+			height: 100px;
+			padding-bottom: 17px;
+		}
+		header #info_box #info #info_right ul li  #phone_a #phone_a_box  .phone  .phone_eweima .phone_eweima_img{
+			float: left;
+			width: 100px;
+			height: 100px;
+		}
+		
+		header #info_box #info #info_right ul li  #phone_a #phone_a_box  .phone  .phone_eweima .xiazai{
+			width: 146px;
+			height: 100px;
+			/*background: yellow;*/
+			float: right;
+		}
+		.xiazai_img{
+			width: 146px;
+			height: 36px;
+			padding-top: 10px;
+			background: url(../images/guan_btn01.jpg) no-repeat left bottom;
+		}
+		.xiazai_img2{
+			width: 146px;
+			height: 46px;
+			padding-top: 10px;
+			background: url(../images/guan_btn02.jpg) no-repeat left center;
+		}
+		.eweima_text{
+			width: 146px;
+			/*height: 100px;*/
+			padding-top: 20px;
+			/*background: blue;*/
+			float: right;
+			font-size: 12px;
+			color: #555;
+			text-align: left;
+		}
+		.eweima_text_span{
+			display: block;
+			width: 146px;
+			height: 20px;
+			color: #64a131;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
 		header #info_box #info #info_right ul li  #phone_a:hover #phone_a_box{
 			display: block;
 		}
@@ -453,7 +593,7 @@
 			width: 275px;
 			height: 55px;
 			margin-top: 22px;
-			margin-left: 45px;
+			margin-left: 40px;
 			/*background: pink;*/
 			float: left;
 			background: url(../images/icon.png) no-repeat 0px -183px;
@@ -537,6 +677,7 @@
 		footer  #footer_middle #footer_middle_right table{
 			width: 420px;
 			margin-left: 74px;
+			/*margin:0 auto;*/
 		}
 		footer  #footer_middle #footer_middle_right table tr td a{
 			text-decoration: none;
@@ -581,7 +722,7 @@
 		footer #footer_bottom #footer_bottom_center #footer_img{
 			width:312px;
 			height: 47px;
-			/*background: #fff;*/
+			background: #fff;
 			padding-left: 210px;
 			margin-top: 5px;
 		}

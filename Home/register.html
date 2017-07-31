@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="./css/nav.css" /> 
 		<link rel="stylesheet" href="./css/landing.css">
+		<script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="./js/register.js"></script>
 	</head>
 	<body>
 
@@ -13,25 +15,25 @@
 				<div id="bg">
 					<a href="">注册会员</a>	
 				</div>
-				<form action="">
+				<form action="../Controller/register.class.php" method="post">
 				<ul>
 					<li>
 						<span class="input_text">手机号码</span>
-						<input type="text" class="input_style" name="phone">
+						<input type="text" class="input_style" name="phone" id="phone">
 					</li>
 					<li>
 						<span class="input_text">密码</span>
-						<input type="password"  name="pwd" class="input_style" placeholder="请输入6-20位号码字符">
+						<input type="password"  name="pwd" class="input_style" placeholder="请输入6-20位号码字符" id="pwd">
 					</li>
 					<li >
 						<span class="input_text">确认密码</span>
-						<input type="password"  name="repwd" class="input_style" placeholder="请输入6-20位号码字符">
+						<input type="password"  name="repwd" class="input_style" placeholder="请输入6-20位号码字符" id="repws">
 					</li>
 					<li>
 						<span class="input_text">验证码</span>
 						<div id="code" class="input_style" >
 							<input type="text"  name="code" class="input_code">
-							<span id="span_code"><img src="./" alt="" id="code_img"></span>
+							<span id="span_code"><img src="../Controller/code.class.php" alt="" id="code_img" onclick="code()"></span>
 							<div id="refresh"><a href=""><img src="./images/refresh.png" alt=""></a></div>
 						</div>
 					</li>

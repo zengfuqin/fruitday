@@ -88,6 +88,7 @@ section{
 	height: 40px;
 	border: none;
 	float: left;
+	text-indent: 10px;
 	/*background: red;*/
 }
 #content_box ul li .input_style #span_code {
@@ -101,7 +102,7 @@ section{
 #content_box ul li .input_style #span_code #code_img{
 	display: block;
 	width: 115px;
-	height: 40px;
+	height: 38px;
 	line-height: 40px;
 	border: 1px solid #fff;
 	/*background: yellow;*/

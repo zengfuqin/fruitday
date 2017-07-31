@@ -34,6 +34,7 @@
 		#content_box_1{
 			width: 1287px;
 			overflow: hidden;
+			margin:0 auto;
 			/*background: yellow;*/
 			border-top: 1px solid #ddd;
 		}
